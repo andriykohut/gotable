@@ -1,4 +1,4 @@
-// Package tablefmt provides tools to convert slices of maps to ASCII tables
+// Package gotable provides tools to convert slices of maps to ASCII tables
 package gotable
 
 import (
