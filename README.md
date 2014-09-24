@@ -26,15 +26,15 @@ func main() {
 }
 ```
 will produce:
-```
+<pre>
 +------+--------+--------+
-| abc  | qwerty | bsod   |
+| <b>abc</b>  | <b>qwerty</b> | <b>bsod</b>   |
 +------+--------+--------+
 | 123  | 12     | bsod   |
 +------+--------+--------+
 | bump | qwerty | kernel |
 +------+--------+--------+
-```
+</pre>
 `gotable.NewTable` accepts additional arguments:
 * `[]string` - table headers
 * `[]rune` - separators (default is `[]rune{'+', '-', '|'}`)
