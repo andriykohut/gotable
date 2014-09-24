@@ -16,7 +16,7 @@ import (
 
 func main() {
 	t := gotable.NewTable(
-	  // Table rows as slice of maps
+	  	// Table rows as slice of maps
 		[]map[string]string{
 			{"abc": "123", "qwerty": "12", "bsod": "bsod"},
 			{"abc": "bump", "qwerty": "qwerty", "bsod": "kernel"},
